@@ -11,89 +11,137 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+  <main>
 
-  <div class="main-frame">
+    <div class="main-frame">
 
-    <main>
+      <!-- SEZIONE NAV-DX CON BOTTONE CALL IN ACTION -->
 
-      <section id="nav-top">
-
-        <div class="container-nav">
-        
-          <div class="call-2-action float-right">
-            <a href="#" class="reset-link">
-              <span class="btn float-right">
-                EFFETTUA L'UPGRADE
-              </span>
-            </a>
+      <div class="nav-frame float-right">
+        <a href="#">
+          <div class="btn float-right">
+            <span>EFFETTUA L'UPGRADE</span>
           </div>
+        </a>
+      </div>
 
+        <!-- SEZIONE NAV-SX ASIDE -->
+
+      <div id="aside">
+        <div id="logotipo">
+          <img class="logo-pic" src="img/logo.svg" alt="">
         </div>
 
-      </section>
+          <!-- SOTTOSEZIONE ASIDE "HOME" -->
 
-      <section id="nav-sx">
+        <div>
+          <div class="frame-home">
 
-        <div class="container-aside float-left">
-
-          <div id="logotipo">
-            <img src="img/logo.svg" alt="">
-          </div>
-          <div class="home">
             <ul class="reset-list">
-              <li class="playlist-item">HOME</li>
-              <li class="playlist-item">CERCA</li>
-              <li class="playlist-item">La tua libreria</li>
+              <li class="reset-item"><img class="icon" src="img/home.svg" alt=""></li>
+              <li class="reset-item"><a class="reset-link" href="#">Home</a></li>
             </ul>
           </div>
-          <div class="frame-playlist">
-            <h5>PLAYLIST</h5>
-            <div class="crea-playlist">
-              <ul class="reset-list">
-                <li id="playlist-btn" class="reset-item">+</li>
-                <li class="reset-item">Crea Playlist</li>
-              </ul>
-              <ul id="list-playlist" class="reset-list">
-                <li class="playlist-item">Nome Playlist</li>
-                <li class="playlist-item">Nome Playlist</li>
-                <li class="playlist-item">Nome Playlist</li>
-                <li class="playlist-item">Nome Playlist</li>
-                <li class="playlist-item">Nome Playlist</li>
-                <li class="playlist-item">Nome Playlist</li>
-                <li class="playlist-item">Nome Playlist</li>
-              </ul>
-            </div>
+
+          <div class="frame-home hidden-actv">
+
+            <ul class="reset-list">
+              <li class="reset-item"><img class="icon" src="img/search.svg" alt=""></li>
+              <li class="reset-item"><a class="reset-link" href="#">Cerca</a></li>
+            </ul>
+
           </div>
-        </div>
+          <div class="frame-home hidden-actv">
 
-      </section>
+            <ul class="reset-list">
+              <li class="reset-item"><img class="icon" src="img/libreria.svg" alt=""></li>
+              <li class="reset-item"><a class="reset-link" href="#">La mia Libreria</a></li>
+            </ul>
 
-      <section id="player">
-
-        <div class="frame-player">
-
-          <div class="player-sx float-left">
-            CANZONE E ALBUM
-          </div>
-
-          <div class="player-center float-left">
-            BARRA DI ASCOLTO BRANO
-          </div>
-
-          <div class="player-dx float-left">
-            AUDIO
           </div>
           
+
         </div>
 
-      </section>
+       
+          <!-- SOTTOSEZIONE ASIDE "CREA PLAYLIST" -->        
+        <div class="frame-crea">
+          <h3>PLAYLIST</h3>
 
-    </main>
-    
+          <ul id="crea" class="reset-list">
 
-  </div>
+            <li class="reset-item"><a class="reset-link" href="#"><img class="btn-pl" src="img/pl-btn.png" alt=""></a></li>
+
+            <li class="reset-item"><a class="reset-link" href="#">Crea playlist</a></li>
+
+          </ul>
+        </div>
+
+          <!-- SOTTOSEZIONE ASIDE "LISTA PLAYLIST" -->
+
+        <div class="frame-lista-pl">
+
+          <ul id="lista-pl" class="reset-list">
+
+            <li class="pl-item"><a class="reset-link" href="#">Nome playlist</a></li>
+
+            <li class="pl-item"><a class="reset-link" href="#">Nome playlist</a></li>
+
+            <li class="pl-item"><a class="reset-link" href="#">Nome playlist</a></li>
+
+            <li class="pl-item"><a class="reset-link" href="#">Nome playlist</a></li>
+
+            <li class="pl-item"><a class="reset-link" href="#">Nome playlist</a></li>
+
+            <li class="pl-item"><a class="reset-link" href="#">Nome playlist</a></li>
+
+            <li class="pl-item"><a class="reset-link" href="#">Nome playlist</a></li>
+            
+          
+          </ul>
+
+        </div>
+
+          <!-- SOTTOSEZIONE ASIDE "JD" -->
+
+        <div class="frame-jd">
+
+          <div id="dwnld-app">
+
+            <ul class="reset-list">
+              <li class="reset-item"><img src="img/download.svg" alt="Download"></li>
+              <li class="reset-item">Installa app</li>
+            </ul>
+          </div>
+
+          <div id="profile">
+
+            <ul class="reset-list">
+              <li id="cerchio-profile" class="reset-item"><!-- <img class="profile-pic" src="img/profile.svg" alt="Profile"> -->
+                </li>
+              <li class="reset-item"><a class="reset-link" href="#">Jon Doe</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="player">
+      
+        ghesboro
+        
+      </div>
+
+    </div>
+
+  </main>
 
 
   
+
 </body>
 </html>
