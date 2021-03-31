@@ -39,13 +39,13 @@ body{
 
 }
 
-
 /* MAIN */
 
 .main-frame{
-  width: 100%;
+  width:100%;
   height:calc(100vh - 90px);
   background-color: tan;
+  min-width: 500px;
   
 }
 
@@ -138,10 +138,13 @@ body{
 
 .frame-lista-pl{
   padding-left: 30px;
+  height: 40%;
 }
 
 #lista-pl{
   margin-top: 10px;
+  height: 80%;
+  overflow-y: auto;
 }
 
 #lista-pl li a{
@@ -156,7 +159,9 @@ body{
 .frame-jd{
   position: absolute;
   bottom: 0px;
+  padding-top: 10px;
   margin-left: 20px ;
+  background-color: rgb(0, 0, 0);
 }
 
 #dwnld-app{
@@ -206,6 +211,10 @@ body{
   color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 12px;
+}
+
+.main-frame #aside{
+  overflow: hidden;
 }
 
 /* PLAYER SECTION */
